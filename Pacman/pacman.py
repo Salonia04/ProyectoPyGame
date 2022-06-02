@@ -8,7 +8,7 @@ red = (255,0,0)
 purple = (255,0,255)
 yellow   = ( 255, 255,   0)
 
-Pacmanicon=pygame.image.load('ProyectoPyGame/Pacman/images/pacman.png')
+Pacmanicon=pygame.image.load('Pacman/images/pacman.png')
 pygame.display.set_icon(Pacmanicon)
 
 #Add music.
@@ -395,23 +395,23 @@ def startGame():
 
 
   # Create the player paddle object
-  Pacman = Player( w, p_h, "ProyectoPyGame/Pacman/images/pacman.png" )
+  Pacman = Player( w, p_h, "Pacman/images/pacman.png" )
   all_sprites_list.add(Pacman)
   pacman_collide.add(Pacman)
    
-  Blinky=Ghost( w, b_h, "ProyectoPyGame/Pacman/images/Blinky.png" )
+  Blinky=Ghost( w, b_h, "Pacman/images/Blinky.png" )
   monsta_list.add(Blinky)
   all_sprites_list.add(Blinky)
 
-  Pinky=Ghost( w, m_h, "ProyectoPyGame/Pacman/images/Pinky.png" )
+  Pinky=Ghost( w, m_h, "Pacman/images/Pinky.png" )
   monsta_list.add(Pinky)
   all_sprites_list.add(Pinky)
    
-  Inky=Ghost( i_w, m_h, "ProyectoPyGame/Pacman/images/Inky.png" )
+  Inky=Ghost( i_w, m_h, "Pacman/images/Inky.png" )
   monsta_list.add(Inky)
   all_sprites_list.add(Inky)
    
-  Clyde=Ghost( c_w, m_h, "ProyectoPyGame/Pacman/images/Clyde.png" )
+  Clyde=Ghost( c_w, m_h, "|Pacman/images/Clyde.png" )
   monsta_list.add(Clyde)
   all_sprites_list.add(Clyde)
 

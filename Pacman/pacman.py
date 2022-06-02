@@ -411,7 +411,7 @@ def startGame():
   monsta_list.add(Inky)
   all_sprites_list.add(Inky)
    
-  Clyde=Ghost( c_w, m_h, "|Pacman/images/Clyde.png" )
+  Clyde=Ghost( c_w, m_h, "Pacman/images/Clyde.png" )
   monsta_list.add(Clyde)
   all_sprites_list.add(Clyde)
 

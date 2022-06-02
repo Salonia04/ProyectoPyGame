@@ -1,3 +1,4 @@
+#Pacman with PyGame
 import pygame
   
 black = (0,0,0)

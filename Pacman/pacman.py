@@ -455,23 +455,31 @@ def startGame():
 
           if event.type == pygame.KEYDOWN:
               if event.key == pygame.K_LEFT:
-                  Pacman.changespeed(-30,0)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_izquierda.png" )
+                Pacman.changespeed(-30,0)
               if event.key == pygame.K_RIGHT:
-                  Pacman.changespeed(30,0)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman.png" )
+                Pacman.changespeed(30,0)
               if event.key == pygame.K_UP:
-                  Pacman.changespeed(0,-30)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_arriba.png" )
+                Pacman.changespeed(0,-30)
               if event.key == pygame.K_DOWN:
-                  Pacman.changespeed(0,30)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_abajo.png" )
+                Pacman.changespeed(0,30)
 
           if event.type == pygame.KEYUP:
               if event.key == pygame.K_LEFT:
-                  Pacman.changespeed(30,0)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_izquierda.png" )
+                Pacman.changespeed(30,0)
               if event.key == pygame.K_RIGHT:
-                  Pacman.changespeed(-30,0)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman.png" )
+                Pacman.changespeed(-30,0)
               if event.key == pygame.K_UP:
-                  Pacman.changespeed(0,30)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_arriba.png" )
+                Pacman.changespeed(0,30)
               if event.key == pygame.K_DOWN:
-                  Pacman.changespeed(0,-30)
+                #Pacman = Player( w, p_h, "Pacman/images/pacman_abajo.png" )
+                Pacman.changespeed(0,-30)
           
       # ALL EVENT PROCESSING SHOULD GO ABOVE THIS COMMENT
    

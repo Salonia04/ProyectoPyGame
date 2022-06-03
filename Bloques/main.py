@@ -1,4 +1,3 @@
-from turtle import speed
 import pygame
 from pygame.locals import *
 
@@ -281,5 +280,6 @@ while run:
             wall.create_wall()
 
     pygame.display.update()
+
 
 pygame.quit()

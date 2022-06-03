@@ -1,6 +1,6 @@
 import pygame
 import pygame_menu
-import os
+
 
 pygame.init()
 surface = pygame.display.set_mode((600, 400))
@@ -12,18 +12,20 @@ def Salonia():
     pass
 
 def Fini():
-    # Do the job here !
+    import Bloques.main
     pass
 
 def Alejo():
-    os.system("ProyectoPyGame/Simon/SimonMain.py")
+    import Simon.SimonMain
+
     pass
 
 menu = pygame_menu.Menu('Bienvenido =D', 400, 300)
 
 menu.add.button('Pacman', Salonia)
-menu.add.button('Romper bloques', Fini)
-menu.add.button('Cubos randoms', Alejo)
+menu.add.button('Bloquesitos', Fini)
+menu.add.button('Ledesma dice', Alejo)
 menu.add.button('Salir', pygame_menu.events.EXIT)
 
 menu.mainloop(surface)
+

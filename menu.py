@@ -1,5 +1,6 @@
 import pygame
 import pygame_menu
+import os
 
 pygame.init()
 surface = pygame.display.set_mode((600, 400))
@@ -15,7 +16,7 @@ def Fini():
     pass
 
 def Alejo():
-    execfile('ProyectoPyGame/Simon/SimonMain.py')
+    os.system("ProyectoPyGame/Simon/SimonMain.py")
     pass
 
 menu = pygame_menu.Menu('Bienvenido =D', 400, 300)

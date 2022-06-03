@@ -15,7 +15,7 @@ def Fini():
     pass
 
 def Alejo():
-    # Do the job here !
+    execfile('ProyectoPyGame/Simon/SimonMain.py')
     pass
 
 menu = pygame_menu.Menu('Bienvenido =D', 400, 300)

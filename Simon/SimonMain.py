@@ -3,16 +3,16 @@ import sys
 import random
 import time
 
-button_g_off = pygame.image.load('green_off.png')
-button_y_off = pygame.image.load('yellow_off.png')
-button_b_off = pygame.image.load('blue_off.png')
-button_r_off = pygame.image.load('red_off.png')
+button_g_off = pygame.image.load('Simon/green_off.png')
+button_y_off = pygame.image.load('Simon/yellow_off.png')
+button_b_off = pygame.image.load('Simon/blue_off.png')
+button_r_off = pygame.image.load('Simon/red_off.png')
 buttons_off = {0:button_g_off, 1:button_y_off, 2:button_b_off, 3:button_r_off}
 
-button_g_on = pygame.image.load('green_on.png')
-button_y_on = pygame.image.load('yellow_on.png')
-button_b_on = pygame.image.load('blue_on.png')
-button_r_on = pygame.image.load('red_on.png')
+button_g_on = pygame.image.load('Simon/green_on.png')
+button_y_on = pygame.image.load('Simon/yellow_on.png')
+button_b_on = pygame.image.load('Simon/blue_on.png')
+button_r_on = pygame.image.load('Simon/red_on.png')
 buttons_on = {0:button_g_on, 1:button_y_on, 2:button_b_on, 3:button_r_on}
 
 rectG = button_g_off.get_rect(center=(192, 192))
@@ -109,8 +109,8 @@ color = (255, 255, 255)
 position = (160, 64)
 text = str('Score: {}'.format(score))
 
-beep = pygame.mixer.Sound('beep.wav')
-laugh = pygame.mixer.Sound('laugh.wav')
+beep = pygame.mixer.Sound('Simon/beep.wav')
+laugh = pygame.mixer.Sound('Simon/laugh.wav')
 
 
 

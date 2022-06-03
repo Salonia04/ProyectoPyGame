@@ -279,6 +279,10 @@ while run:
             player_paddle.reset()
             wall.create_wall()
 
+    if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                from menu import surface
+
     pygame.display.update()
 
 

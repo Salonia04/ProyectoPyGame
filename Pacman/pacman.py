@@ -482,6 +482,11 @@ def startGame():
                 Pacman.changespeed(0,-30)
           
       # ALL EVENT PROCESSING SHOULD GO ABOVE THIS COMMENT
+
+
+      if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                from menu import surface
    
       # ALL GAME LOGIC SHOULD GO BELOW THIS COMMENT
       Pacman.update(wall_list,gate)
